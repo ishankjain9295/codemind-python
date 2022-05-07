@@ -1,13 +1,10 @@
-num = int(input())
-sqr = num*num 
-sumOfDigit = 0
-
-
+num=int(input())
+sqr=num*num
+sumofdigit=0
 while sqr>0:
-    sumOfDigit =sumOfDigit + sqr%10
-    sqr = sqr//10
-
-if (num == sumOfDigit):
+    sumofdigit=sumofdigit+sqr%10
+    sqr=sqr//10
+if(num==sumofdigit):
     print("Neon Number")
 else:
     print("Not Neon Number")
