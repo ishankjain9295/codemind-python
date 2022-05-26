@@ -1,6 +1,8 @@
-n=int(input())
-for i in range(n,1,-1):
-    for j in range(1,i+1):
-        print(j,end='')
+x=int(input())
+a=x
+for i in range(1,x+1):
+    for j in range(1,x+1):
+        print(a,end=" ")
+        a=a-1
+    a=x
     print()
-print('1')
